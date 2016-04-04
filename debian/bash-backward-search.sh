@@ -1,3 +1,4 @@
+#!/bin/sh
 cat << EOF >> ~/.bashrc
 
 # BSD-like backward search
