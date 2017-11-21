@@ -30,3 +30,20 @@
 | **`C-x C-b`** | list                  |
 | **`C-x b`**   | switch to named (tab) |
 | **`C-x k`**   | kill                  |
+
+|             | **window**           |
+|-------------|----------------------|
+| **`C-x 0`** |	close current window |
+| **`C-x 1`** |	close others         |
+| **`C-x 2`** |	split vertically     |
+| **`C-x 3`** |	split horizontally   |
+| **`C-x o`** |	switch               |
+
+|               | **frame**    |
+|---------------|--------------|
+| **`C-x 5 0`** |	close        |
+| **`C-x 5 1`** |	close others |
+| **`C-x 5 2`** |	new          |
+
+|---------------|------------|
+| **`C-x C-c`** |	Exit Emacs |
