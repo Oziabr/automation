@@ -23,3 +23,12 @@ curl -sL https://raw.githubusercontent.com/Oziabr/automation/master/debian/postg
 ```
 curl -sL https://raw.githubusercontent.com/Oziabr/automation/master/npm/angilar-cli/pug-support-hack.sh | bash
 ```
+
+# Docker
+
+### purge all
+```
+docker stop $(docker ps -a -q)
+docker rm -v $(docker ps -a -q)
+docker rmi $(docker images -a -q)
+```
